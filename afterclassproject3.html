@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html> 
+    <body>
+    <h2>Sorting in ascending order</h2>
+    <p>Click the button to sort in ascending order</p>
+    <button onclick="ascending()">Ascending order</button onclick>
+    <p id = "sort"></p>
+    <script>
+    var numbers = [100,200,50,20,];
+    document.getElementById("result").innerHTML=points;
+    function ascending() {
+        numbers.sort(function(a,b){return a-b});
+        document.getElementById ("sort") .innerHTML=numbers ;
+    }
+</script>
+</body>
+
+</html>
